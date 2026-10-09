@@ -1,0 +1,43 @@
+# Credenciales y variables de entorno
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Backups y dumps
+backups/*
+!backups/.gitkeep
+*.sql
+*.dump
+*.backup
+*.bak
+*.rman
+
+# Datos persistentes de bases de datos
+data/
+volumes/
+docker-data/
+postgres-data/
+mysql-data/
+mongodb-data/
+redis-data/
+oracle-data/
+
+# Logs
+*.log
+logs/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.swp
